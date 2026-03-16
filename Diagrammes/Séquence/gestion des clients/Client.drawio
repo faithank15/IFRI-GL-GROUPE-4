@@ -1,0 +1,67 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36" version="29.6.1">
+  <diagram name="Page-1" id="zy4KfX2Q7F7YH6RN0lOt">
+    <mxGraphModel dx="1042" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PNWBe7YvQSDnGC1scfbc-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Responsable Commercial" vertex="1">
+          <mxGeometry height="590" width="100" x="110" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PNWBe7YvQSDnGC1scfbc-2" parent="PNWBe7YvQSDnGC1scfbc-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="510" width="10" x="45" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNWBe7YvQSDnGC1scfbc-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Systeme Odoo" vertex="1">
+          <mxGeometry height="590" width="100" x="590" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PNWBe7YvQSDnGC1scfbc-4" parent="PNWBe7YvQSDnGC1scfbc-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="510" width="10" x="45" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNWBe7YvQSDnGC1scfbc-7" edge="1" parent="1" source="PNWBe7YvQSDnGC1scfbc-2" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="PNWBe7YvQSDnGC1scfbc-4" value="Rechercher Client">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="140" />
+            </Array>
+            <mxPoint x="170" y="140" as="sourcePoint" />
+            <mxPoint x="630" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNWBe7YvQSDnGC1scfbc-8" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="Afficher Resulat de Recherche">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="200" as="sourcePoint" />
+            <mxPoint x="170" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNWBe7YvQSDnGC1scfbc-10" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" value="alt" vertex="1">
+          <mxGeometry height="320" width="660" x="80" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="PNWBe7YvQSDnGC1scfbc-12" edge="1" parent="1" source="PNWBe7YvQSDnGC1scfbc-3" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="Confirmation de la Creation">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="560" />
+            </Array>
+            <mxPoint x="630" y="530" as="sourcePoint" />
+            <mxPoint x="170" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNWBe7YvQSDnGC1scfbc-13" parent="1" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="[Client Trouvé&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;]&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="130" x="180" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="PNWBe7YvQSDnGC1scfbc-14" parent="1" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="[Client Introuvable]" vertex="1">
+          <mxGeometry height="26" width="195" x="170" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="PNWBe7YvQSDnGC1scfbc-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="Creer Client">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="170" y="480" as="sourcePoint" />
+            <mxPoint x="630" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNWBe7YvQSDnGC1scfbc-16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="Ouvrir Fiche Client">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="170" y="360" as="sourcePoint" />
+            <mxPoint x="630" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
