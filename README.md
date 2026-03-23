@@ -36,8 +36,8 @@ La solution est entièrement conteneurisée, ce qui facilite son déploiement su
 ### Étapes de démarrage
 1. **Cloner le dépôt :**
    ```bash
-   git clone [https://github.com/Krisaff7/techdistrib-odoo.git](https://github.com/Krisaff7/techdistrib-odoo.git)
-   cd techdistrib-odoo
+   git clone https://github.com/faithank15/IFRI-GL-GROUPE-4.git
+   cd IFRI-GL-GROUPE-4
 
 2. **Démarrage :** Ouvrez un terminal dans le dossier racine et tapez :
    ```bash
@@ -47,7 +47,7 @@ La solution est entièrement conteneurisée, ce qui facilite son déploiement su
    ```bash
    http://localhost:8069
 
-4.** Acces Multi-poste : ** Si vous travaillez directement sur l'ordinateur où Docker est installé :
+ 4.** Acces Multi-poste : ** Si vous travaillez directement sur l'ordinateur où Docker est installé :
    ```bash
-   http://<ADRESSE_IPv4_DU_SERVEUR>:8069
+      http://<ADRESSE_IPv4_DU_SERVEUR>:8069
 
