@@ -43,11 +43,17 @@ La solution est entièrement conteneurisée, ce qui facilite son déploiement su
    ```bash
    docker-compose up -d
 
-3. ** Acces Local au systeme : ** Si vous travaillez directement sur l'ordinateur où Docker est installé :
+3.** Restoration de la base de donnee : <<http://localhost/web/database/manager>>
+   entrer la master password : <<admin123>>
+   choisir la base de donnee odoo
+   
+   
+
+4. ** Acces Local au systeme : ** Si vous travaillez directement sur l'ordinateur où Docker est installé :
    ```bash
    http://localhost:8069
 
- 4.** Acces Multi-poste : ** Si vous travaillez directement sur l'ordinateur où Docker est installé :
+ 5.** Acces Multi-poste : ** Si vous travaillez directement sur l'ordinateur où Docker est installé :
    ```bash
       http://<ADRESSE_IPv4_DU_SERVEUR>:8069
 
